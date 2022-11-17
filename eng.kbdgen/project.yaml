@@ -4,11 +4,6 @@ locales:
     description: >-
       Mobile OS keyboards for the English language from the Divvun group
       at UiT.
-  en:
-    name: English Keyboards
-    description: >-
-      Mobile OS keyboards for the English language from the Divvun group
-      at UiT.
   nb:
     name: English tastatur
     description: Mobiltastatur for English fra Divvun-gruppa.
