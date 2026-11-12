@@ -101,6 +101,88 @@ windows:
     alt+shift: \u{A0}
     cmd+alt: \u{A0}
     alt+caps: \u{A0}
+iOS:
+  primary:
+    layers:
+      default: |
+        q w e r t y u i o p
+        \s{spacer:0.5} a s d f g h j k l \s{spacer:0.5}
+        \s{shift:1.25} \s{spacer:0.25} z x c v b n m \s{spacer:0.25} \s{backspace:1.25}
+      shift: |
+        Q W E R T Y U I O P
+        \s{spacer:0.5} A S D F G H J K L \s{spacer:0.5}
+        \s{shift:1.25} \s{spacer:0.25} Z X C V B N M \s{spacer:0.25} \s{backspace:1.25}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0
+        - / : ; ( ) $ & @ "
+        \s{shiftSymbols:1.25} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace:1.25}
+      symbols-2: |
+        [ ] { } # % ^ * + =
+        _ \ | ~ < > € £ ¥ •
+        \s{shiftSymbols:1.25} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace:1.25}
+  iPad-9in:
+    layers:
+      default: |
+        q w e r t y u i o p \s{backspace:1.5}
+        \s{spacer:0.5} a s d f g h j k l \s{return:2}
+        \s{shift:1} z x c v b n m , . \s{shift:1.5}
+      shift: |
+        Q W E R T Y U I O P \s{backspace:1.5}
+        \s{spacer:0.5} A S D F G H J K L \s{return:2}
+        \s{shift:1} Z X C V B N M ! ? \s{shift:1.5}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0 \s{backspace:1.5}
+        \s{spacer:0.5} @ # $ & * ( ) ' " \s{return:2}
+        \s{shiftSymbols:1} % - + = / ; : , . \s{shiftSymbols:1.5}
+      symbols-2: |
+        1 2 3 4 5 6 7 8 9 0 \s{backspace:1.5}
+        \s{spacer:0.5} € £ ¥ _ ^ [ ] { } \s{return:2}
+        \s{shiftSymbols:1} § | ~ … \ < > ! ? \s{shiftSymbols:1.5}
+  iPad-12in:
+    layers:
+      default: |
+        ` 1 2 3 4 5 6 7 8 9 0 - = \s{backspace:1.5}
+        \s{spacer:1.5} q w e r t y u i o p [ ] \
+        \s{caps:1.75} a s d f g h j k l ; ' \s{return:1.75}
+        \s{shift:2.25} z x c v b n m , . / \s{shift:2.25}
+      shift: |
+        ~ ! @ # $ % ^ & * ( ) _ + \s{backspace:1.5}
+        \s{spacer:1.5} Q W E R T Y U I O P { } |
+        \s{caps:1.75} A S D F G H J K L : " \s{return:1.75}
+        \s{shift:2.25} Z X C V B N M < > ? \s{shift:2.25}
+      symbols-1: |
+        ` 1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
+        \s{spacer:1.75} - / : ; ( ) $ & @ £ € \s{return:1.75}
+        \s{spacer:2.25} … . , ? ! ' " _ • \s{spacer:2.25}
+longpress:
+  A: Á À Â Ä Ã Å Ā Æ
+  C: Ç Ć Č
+  E: É È Ê Ë Ē Ę
+  I: Í Ì Î Ï Ī
+  'N': Ñ Ń
+  O: Ó Ò Ô Ö Õ Ø Ō Œ
+  S: Š Ś ß
+  U: Ú Ù Û Ü Ū
+  'Y': Ý Ÿ
+  Z: Ž Ź Ż
+  a: á à â ä ã å ā æ
+  c: ç ć č
+  e: é è ê ë ē ę
+  i: í ì î ï ī
+  'n': ñ ń
+  o: ó ò ô ö õ ø ō œ
+  s: š ś ß
+  u: ú ù û ü ū
+  'y': ý ÿ
+  z: ž ź ż
+  '.': … ·
+  '-': – — •
+  "'": ’ ‘ ‚ ‹ ›
+  '"': ” “ „ « »
+  '?': ¿
+  '!': ¡
+  $: € £ ¥ ¢ ₩
 transforms:
   '\u{A0}\u{30F}':
     ' ': \u{A0}\u{30F}
