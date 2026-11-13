@@ -744,4 +744,6 @@ transforms:
     O: Ơ
     u: ư
     U: Ư
-
+keyNames:
+  space: space
+  return: return
